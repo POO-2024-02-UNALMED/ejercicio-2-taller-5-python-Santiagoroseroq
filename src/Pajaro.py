@@ -22,6 +22,8 @@ class Pajaro(Animal):
 
     def volar(self):
         return "vuela al punto"
+    def ruido(self):
+        return "cantar y silbar"
     
     @classmethod
     def getTotalCreados(cls):
